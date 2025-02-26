@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oficina02</title>
+
+    <link rel="stylesheet" href="estilo.css">
+
+    <link rel="stylesheet" href="fita.css">
+
+    <link rel="stylesheet" href="banda.css">
+
+    <style>
+        p{ color: blueviolet;
+        }
+
+        #primeira-div {
+            color: aliceblue;
+            background-color: blueviolet;
+            text-decoration: underline;
+        }
+
+        #segunda-div {
+            color: rgb(117, 136, 98);
+            background-color: bisque;
+            text-decoration: line-through;
+        }
+
+        .outra-div{
+            color: coral;
+            background-color: gainsboro;
+        }
+
+        .bloco {
+            width: 5rem;
+            height: 5rem;
+            border-radius: .5rem;
+            background-color: beige;
+            color: cornflowerblue;
+            margin: 1rem;
+            padding: 1rem;
+        }
+
+        .lista{
+            background-color: darkseagreen;
+            color: crimson;
+            padding: 1rem;
+            margin: 1rem;
+
+        }
+
+        .barra{
+            background-color: crimson;
+            color:rgb(117, 136, 98);
+            padding: 1rem;
+            margin: 1rem;
+            
+        }
+
+        #arco{
+            background-color: cornflowerblue;
+            color: rgb(0, 0, 0);
+            margin: 1rem;
+            padding: 1rem;
+        }
+         .iris{
+            background-color: darkslategrey;
+            color: bisque;
+            margin: 1rem;
+            padding: 1rem;
+         }
+
+         .container{
+            height: 30rem;
+            border: solid .3rem  black;
+            border-radius: .5rem;
+            padding: 1rem;
+            box-shadow: .5rem .5rem .3rem .3rem  gray;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            
+         }
+          .item { 
+            width: 4rem;
+            height: 4rem;
+            padding: 1rem;
+            border: solid .1rem  rgb(255, 0, 0);
+            border-radius: .5rem;
+            color: brown;
+            background-color: rgb(252, 220, 220);
+          }
+
+
+
+    </style>
+
+</head>
+<body>
+    <p 
+    style="color: chocolate;"> Isso é um parágrafo!
+    </p>
+
+    <div id="primeira-div"> 
+        Essa é a primeira div.
+    </div>
+
+    <div id="segunda-div"> 
+        Essa é a segunda div.
+    </div>
+
+    <div class="outra-div"> 
+        Essa é outra div.
+    </div>
+
+    <div class="outra-div"> 
+        Essa é a quarta div.
+    </div>
+
+   <div class="bloco">Isso é um bloco</div>
+   <div class="bloco">Isso é um bloco</div>
+   <div class="bloco">Isso é um bloco</div>
+    
+   <div class="barra lista"> Quinta div 
+
+   </div>
+
+   <div class="lista barra"> Sexta div 
+
+   </div>
+
+   <div class="banda fita">Essa é a setima div </div>
+   <div class=" fita banda">Essa é a oitava div </div>
+
+ <div id="arco" class="iris"> Nona div</div>
+
+ <div class="container">
+    <div class="item">Item 01 </div>
+    <div class="item">Item 02 </div>
+    <div class="item">Item 03 </div>
+    <div class="item">Item 04 </div>
+    <div class="item">Item 05 </div>
+    <div class="item">Item 06 </div>
+ </div>
+
+ <script>
+    alert("Olá Mundo!");
+    document.write("Olá Mundo, eu sou document.write();");
+    console.log("Olá Mundo, eu sou o console");
+    document.getElementById("primeira-div").innerHTML="Olá mundo eu sou um document.getElementById"
+    
+    var nome = prompt ("Informe o seu nome:");
+    document.getElementById("primeira-div").innerHTML="Seu nome é:" + nome;
+    alert("Seu nome é");
+    console.log("Aninha");
+
+    </script>
+
+</body>
+</html>
